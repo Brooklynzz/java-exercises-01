@@ -10,5 +10,7 @@ public class Temperatura {
         double resultado = (fahr - 32) / 1.8;
 
         System.out.println("A temperatura em graus Celsius é: " + (Math.floor(resultado)));
+
+        input.close();
     }
 }

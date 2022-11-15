@@ -10,5 +10,7 @@ public class Metros {
 
         double resultado = metros * 100;
         System.out.println(metros + " metros são " + resultado + " centímetros!");
+
+        input.close();
     }
 }

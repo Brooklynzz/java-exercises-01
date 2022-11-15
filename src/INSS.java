@@ -13,15 +13,22 @@ public class INSS {
         double horas = input.nextDouble();
 
         double salarioBruto = valorRecebido * horas;
+        System.out.println("Seu salário bruto foi de: " + salarioBruto + " R$");
+
         double ir = (salarioBruto * 11) / 100;
+        System.out.println("Você pagou ao Imposto de Renda: " + ir + " R$");
+        
+        double inss = (salarioBruto * 8) / 100;
+        System.out.println("Você pagou ao INSS: " + inss + " R$");
 
-        double salarioLiq1 = salarioBruto - ir;
-        double inss = (salarioLiq1 * 8) / 100;
+        double sindicato = (salarioBruto * 5) / 100;
+        System.out.println("Você pagou ao Sindicato: " + (Math.floor(sindicato)) + " R$");
 
-        double salarioLiq2 = salarioLiq1 - inss;
-        double sindicato = (salarioLiq2 * 5) / 100;
+        double somaTotal = ir + inss + sindicato;
+        double resultado = salarioBruto - somaTotal;
 
-        double resultado = salarioLiq2 - sindicato;
-        System.out.println("Seu salário esse mês é de: " + (Math.floor(resultado)));
+        System.out.println("Seu salário líquido esse mês é de: " + (Math.floor(resultado)) + " R$");
+
+        input.close();
     }
 }

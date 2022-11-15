@@ -21,5 +21,6 @@ public class Media {
         double resultado = calc / 4;
         System.out.println("A média geral do(a) aluno(a) " + aluno +  " é: " + resultado);
 
+        input.close();
     }
 }
