@@ -17,7 +17,7 @@ public class INSS {
 
         double ir = (salarioBruto * 11) / 100;
         System.out.println("Você pagou ao Imposto de Renda: " + ir + " R$");
-        
+
         double inss = (salarioBruto * 8) / 100;
         System.out.println("Você pagou ao INSS: " + inss + " R$");
 
