@@ -1,6 +1,6 @@
-//Faça um Programa que receba o quanto você ganha por hora e o número de horas trabalhadas no mês.
+package ex01;//Faça um Programa que receba o quanto você ganha por hora e o número de horas trabalhadas no mês.
 // Calcule e mostre o total do seu salário no referido mês, sabendo-se que são descontados 11% para o Imposto de Renda,
-// 8% para o INSS e 5% para o sindicato, faça um programa que nos dê respectivamente:
+// 8% para o ex01.INSS e 5% para o sindicato, faça um programa que nos dê respectivamente:
 
 import java.util.Scanner;
 public class INSS {
@@ -19,7 +19,7 @@ public class INSS {
         System.out.println("Você pagou ao Imposto de Renda: " + ir + " R$");
 
         double inss = (salarioBruto * 8) / 100;
-        System.out.println("Você pagou ao INSS: " + inss + " R$");
+        System.out.println("Você pagou ao ex01.INSS: " + inss + " R$");
 
         double sindicato = (salarioBruto * 5) / 100;
         System.out.println("Você pagou ao Sindicato: " + (Math.floor(sindicato)) + " R$");

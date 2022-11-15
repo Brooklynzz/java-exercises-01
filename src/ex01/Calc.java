@@ -1,4 +1,4 @@
-//Faça um programa que exibe a soma e a substração de 2 números.
+package ex01;//Faça um programa que exibe a soma e a substração de 2 números.
 
 public class Calc {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-//Faça um programa que peça a temperatura em graus Fahrenheit, transforme e mostre a temperatura em graus Celsius.
+package ex01;//Faça um programa que peça a temperatura em graus Fahrenheit, transforme e mostre a temperatura em graus Celsius.
 
 import java.util.Scanner;
 public class Temperatura {

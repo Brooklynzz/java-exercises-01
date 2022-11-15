@@ -1,4 +1,4 @@
-//Faça um programa que exibe uma frase concatenada com a idade e o nome de um usuário.
+package ex01;//Faça um programa que exibe uma frase concatenada com a idade e o nome de um usuário.
 
 public class Frase {
     public static void main(String[] args) {

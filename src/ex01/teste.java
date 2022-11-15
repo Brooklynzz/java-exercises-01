@@ -1,3 +1,5 @@
+package ex01;
+
 import java.util.Scanner;
 public class teste {
     public static void main(String[] args) {
@@ -30,12 +32,12 @@ public class teste {
         System.out.println("                    Pagamento                  ");
         System.out.println("===============================================");
         System.out.println("Salario por hora: \t\t" + salarioPorHora);
-        System.out.println("Horas trabalhadas: \t\t" + horasTrabalhadas);
+        System.out.println("ex01.Horas trabalhadas: \t\t" + horasTrabalhadas);
         System.out.println("SALARIO BRUTO: \t\t" + salarioBruto);
         System.out.println("===============================================");
         System.out.println("DESCONTOS:");
         System.out.println("Imposto de Renda (11%): \t" + impostoDeRenda);
-        System.out.println("INSS (8%): \t\t\t" + inss);
+        System.out.println("ex01.INSS (8%): \t\t\t" + inss);
         System.out.println("Sindicato (5%): \t\t" + sindicato);
         System.out.println("TOTAL DESCONTOS: \t\t" + descontos);
         System.out.println("===============================================");

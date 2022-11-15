@@ -1,4 +1,4 @@
-//Faça um programa que converta metros para centímetros.
+package ex01;//Faça um programa que converta metros para centímetros.
 
 import java.util.Scanner;
 

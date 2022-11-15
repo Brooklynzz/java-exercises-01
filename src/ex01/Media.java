@@ -1,4 +1,4 @@
-//Faça um programa que receba 4 notas bimestrais e mostre a média aritmética.
+package ex01;//Faça um programa que receba 4 notas bimestrais e mostre a média aritmética.
 
 import java.util.Scanner;
 
